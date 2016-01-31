@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.monir.mympuzzle" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/m_green"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ImageViewFour"
+            android:label="@string/title_activity_image_view_four"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FrontPage"
+            android:label="@string/title_activity_front_page"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChooseImageClass"
+            android:label="@string/title_activity_choose_image_class"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BirdThree"
+            android:label="@string/title_activity_bird_three"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BirdFour"
+            android:label="@string/title_activity_bird_four"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DoelThree"
+            android:label="@string/title_activity_doel_three"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ShaplaThree"
+            android:label="@string/title_activity_shapla_three"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PrincessThree"
+            android:label="@string/title_activity_princess_three"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".DoelFour"
+            android:label="@string/title_activity_doel_four"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ShaplaFour"
+            android:label="@string/title_activity_shapla_four"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".BestScore"
+            android:label="@string/title_activity_best_score"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>
